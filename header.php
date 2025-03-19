@@ -11,9 +11,7 @@
 <body>
     <header class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="<?php echo home_url(); ?>">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/logo.png" alt="Logo" width="120">
-            </a>
+            <a class="navbar-brand" href="<?php echo home_url(); ?>"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
