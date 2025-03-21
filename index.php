@@ -79,7 +79,7 @@
                 <div class="card">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/servico1.jpg" class="card-img-top" alt="Serviço 1">
                     <div class="card-body">
-                        <h5 class="card-title">Serviço 1</h5>
+                        <h5 class="card-title">AULA-PARTICULAR</h5>
                         <p class="card-text">Descrição breve do serviço.</p>
                         <a href="#" class="btn btn-primary">Saiba mais</a>
                     </div>
@@ -89,7 +89,7 @@
                 <div class="card">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/servico2.jpg" class="card-img-top" alt="Serviço 2">
                     <div class="card-body">
-                        <h5 class="card-title">Serviço 2</h5>
+                        <h5 class="card-title">LOJA</h5>
                         <p class="card-text">Descrição breve do serviço.</p>
                         <a href="#" class="btn btn-primary">Saiba mais</a>
                     </div>
@@ -109,8 +109,21 @@
     </div>
 </section>
 
+<style>
+    .py-5 {
+        background: radial-gradient(circle,rgb(9, 9, 9) 0%,rgb(10, 10, 10) 100%);
+}
+    .text-center {
+        color: aliceblue;
+    }
+    .card {
+        background: linear-gradient(135deg,rgb(150, 150, 150),rgb(45, 45, 45));
+        color: aliceblue;
+    }
+    
+</style>
 <section id="depoimentos" class="py-5 bg-light">
-    <div class="container">
+    <div class="container-3">
         <h2 class="text-center mb-4">O que nossos clientes dizem</h2>
         <div class="row">
             <div class="col-md-4">
